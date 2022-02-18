@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.table{
+  width:90%;
+  border: solid 1px black;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: center;
+}
+
+.row th{
+  border-bottom: solid 2px black;
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+}
+.row td{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.row:nth-child(odd){
+  /* background-color: grey; */
 }
